@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="style.css">
+
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -13,28 +15,92 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
 </head>
+
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <header>
+    <section>
+      <figure>
+        <img src="./images/logo.svg" alt="Frontend Mentor logo">
+      </figure>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+      <nav>
+        <img class="expand" src="./images/hamburger-menu.svg">
+        <ul>
+          <li><a href="#">Main</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+          <li class="right imp"><a href="#">Sign in</a></li>
+          <li class="imp"><a href="#">Sign up</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+  <main>
+    <section class="images">
+      <div class="desktop">
+        <figure alt="Woman interacting with screen">
+          <img class="desktop pattern" src="./images/bg-pattern-desktop.svg">
+          <img class="desktop woman" src="./images/illustration-woman-online-desktop.svg">
+        </figure>
+      </div>
+      <img class="desktop box" src="./images/illustration-box-desktop.svg">
+      <img class="mobile pattern" src="./images/bg-pattern-mobile.svg">
+      <img class="mobile woman" src="./images/illustration-woman-online-mobile.svg">
+    </section>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+    <section class="accordion-wrapper">
+      <h1>FAQ</h1>
+      <div class="accordion">
+        <h2>How many team members can I invite?</h2>
+        <div>
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+          team members for the Premium plan.</p>
+        </div>
+      </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <div class="accordion">
+        <h2>What is the maximum file upload size?</h2>
+        <div>
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <h2>How do I reset my password?</h2>
+        <div>
+          <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.</p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <h2>Can I cancel my subscription?</h2>
+        <div>
+          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <h2>Do you provide additional support?</h2>
+        <div>
+          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    <section>
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+      <p>Coded by <a href="https://github.com/BaghZamir">Bagh Zamir</a>.</p>
+    </section>
+  </footer>
+
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
