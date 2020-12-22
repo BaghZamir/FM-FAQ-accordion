@@ -2,7 +2,7 @@
 
 ![Design preview for the FAQ Accordion Card coding challenge](./design/desktop-preview.jpg)
 
-## Bagh's Notes!
+## Bagh's Notes:
 
 This was a simple challenge with mainly HTML and CSS with a little JS for interactivity.
 I made this mainly to showcase my CSS skills as this is using the CSS grid and some flexbox.
