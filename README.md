@@ -2,6 +2,19 @@
 
 ![Design preview for the FAQ Accordion Card coding challenge](./design/desktop-preview.jpg)
 
+##Bagh's Notes:
+
+This was a simple challenge with mainly HTML and CSS with a little JS for interactivity.
+I made this mainly to showcase my CSS skills as this is using the CSS grid and some flexbox.
+
+The challenge didn't quite give the impression of a real website, so I added a header and a footer. The header has a logo and menu elements, which goes to a hamburger setup on smaller screens. All custom made using mostly CSS.
+
+I wanted more control over the accordions, so I opted for a custom made accordions instead of using HTML details. Here I use JS to make the accordions interactive and CSS to do the animation.
+
+My main plan was to make this site completely responsive with as few breakpoints as possible, while at the same time stick to the design provided.
+The design was mainly made for 1440px width and smaller, but my responsive code does a decent job at higher and inbetweens.
+There are some breakpoints to match it to design and to add the custom mobile menu.
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
